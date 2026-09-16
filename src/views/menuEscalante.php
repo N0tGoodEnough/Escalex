@@ -53,6 +53,11 @@ $perfil = $_SESSION['perfil'] ?? 'ESCALANTE';
             <a href="/src/views/cadastrar_militar.php" class="btn-admin">
                 5. Cadastro de Militar
             </a>
+
+            <!-- Botão 6: Edição de Militar ja Cadastrado (Inserção de dados e critérios de desempate) -->
+            <a href="/src/views/gerenciar_militares.php" class="btn-admin" style="background-color: #2980b9;">
+                Gerenciar Militares (Editar / Excluir)
+            </a>
         </div>
 
         <hr style="margin-top: 25px;">
