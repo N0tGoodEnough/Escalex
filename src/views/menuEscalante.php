@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../controller/authController.php';
+require_once __DIR__ . "/../controller/authController.php";
 
 // Proteção da tela: acesso restrito ao perfil Escalante e SGTE[span_6](start_span)[span_6](end_span)
 authController::verificarAcesso(['ESCALANTE', 'SGTE']);

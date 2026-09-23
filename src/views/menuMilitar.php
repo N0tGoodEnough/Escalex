@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../controller/authController.php';
+require_once __DIR__ . "/../controller/authController.php";
 
 // Proteção da tela: permite acesso a qualquer militar autenticado[span_3](start_span)[span_3](end_span)
 authController::verificarAcesso(['MILITAR', 'ESCALANTE', 'SGTE']);

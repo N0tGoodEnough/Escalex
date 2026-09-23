@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/../controller/authController.php';
+require_once __DIR__ . "/../controller/authController.php";
 authController::verificarAcesso(['MILITAR', 'ESCALANTE', 'SGTE']); 
 ?>
 <!DOCTYPE html>

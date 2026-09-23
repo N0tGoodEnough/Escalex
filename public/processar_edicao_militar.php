@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/../controllers/authController.php';
-require_once __DIR__ . '/../../config/database.php';
+require_once __DIR__ . '/../../config/init.php';
 
 // Permite o acesso apenas ao perfil Escalante e SGTE[cite: 1]
 authController::verificarAcesso(['ESCALANTE', 'SGTE']);
