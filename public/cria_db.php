@@ -76,7 +76,7 @@
 
             -- Inclusão do SGTE no sistema
             INSERT INTO militares (cpf, password_hash, nome_guerra, posto_graduacao, data_ingresso, nota_curso, data_nascimento, perfil)
-            SELECT ($cpfSgte, $senhaSgte, 'SGTE', '1º Sgt', '2012-03-01', 8.80, '1992-08-20', 'SGTE')
+            SELECT $cpfSgte, $senhaSgte, 'SGTE', '1º Sgt', '2012-03-01', 8.80, '1992-08-20', 'SGTE'
 
         "
         
